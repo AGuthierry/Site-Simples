@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: arial;
+	font-size: 14px;
+}
+#menu{
+	background-color:#B21B6E;
+	height: 50px;
+	display:block;
+	width:100%;
+}
+
+#menu ul{
+	margin:0;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu a:link, a:visited{
+	color: #FFE426;
+	padding: 10px;
+	line-height:40px;
+	font-size: 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+}
+
+#menu a:hover, a:active{
+	color: #FFF;
+}
+
+#banner{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	padding-top:50px;
+}
+
+#content{
+	background-color:#00A1B2;
+	height: 700px;
+	width: 100%;
+	padding-top:60px;	
+}
+h1{
+	padding-left:50px;
+}
+
+p{
+	width:80%;
+	padding-left:50px;
+	text-align: justify;
+	font-size: 17px;
+	color: #FFF;
+}
+#gallery{
+	background-color:#FF0D92;
+	height: 700px;
+	width: 100%;
+	padding-top:60px;	
+}
+
+#img1{
+	background-image:url(../images/1.jpg);
+}
+#img2{
+	background-image:url(../images/2.jpg);
+}
+#img3{
+	background-image:url(../images/3.jpg);
+}
+#img4{
+	background-image:url(../images/4.jpg);
+}
+#img5{
+	background-image:url(../images/5.jpg);
+}
+#img6{
+	background-image:url(../images/6.jpg);
+}
+
+.galeria{
+	background-size:cover;
+	width: 250px;
+	height: 250px;
+	margin:30px 70px;
+	float:left;
+	border: 10px #fff solid;
+	border-radius: 5px;
+	box-shadow: 5px 5px rgba(0,0,0,.5);
+	text-align: center;
+	font-size: 28px;
+	font-weight:bold;
+	color: #FFF;
+	text-shadow: 1px 1px #F00;
+}
+
+#contact{
+	background-color:#00A1B2;
+	height: 100%;
+	width: 100%;
+	padding-top:60px;
+}
+#talentos{
+	background-color:#00A1B2;
+	height: 100%;
+	width: 100%;
+	padding-top:60px;
+}
+
+form{
+	text-align:center;
+	font-size:2.0em;
+}
+
+label{
+	display:block;
+}
+
+input{	
+	font-size:1.0em;
+	line-height: 40px;
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+textarea{
+	margin-bottom: 20px;
+}
+
+button{
+	font-size:1.0em;
+	width: 200px;
+}
+
+#footer p{
+	font-size: 0.8em;
+	color: #000;
+	text-align: center;
+}
+	
+
+
+
+
+
+
+
+
+
